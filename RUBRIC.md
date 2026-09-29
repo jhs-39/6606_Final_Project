@@ -102,7 +102,7 @@ The implementation correctly performs the essential optimization sequence:
 The submitted run must also:
 
 - start from the specified pretrained checkpoint rather than a previously fine-tuned checkpoint;
-- complete the prescribed one-epoch training run;
+- complete at least one full supervised fine-tuning run;
 - maintain finite training loss;
 - produce a saved fine-tuned checkpoint/artifact as directed by the instructor.
 
@@ -184,7 +184,7 @@ For approximately five examples, the student:
 - Notebook runs in order in the intended Google Colab environment.
 - Required TODOs are completed.
 - Provided assertions/checks pass.
-- Results shown in the submitted notebook correspond to the submitted implementation.
+- Results shown in the submitted notebook correspond to the submitted implementation and clearly record the training settings used.
 - Required model/checkpoint artifact is saved as directed.
 - Notebook is readable and contains enough output to verify the experiment without unnecessary debugging clutter.
 - Student does not alter frozen course data or hidden-evaluation machinery.
