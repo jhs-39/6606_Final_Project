@@ -1,0 +1,50 @@
+{
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "person",
+    "location",
+    "group",
+    "creative_work",
+    "product",
+    "medical"
+  ],
+  "properties": {
+    "person": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "location": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "group": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "creative_work": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "product": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    },
+    "medical": {
+      "type": "array",
+      "items": {
+        "type": "string"
+      }
+    }
+  }
+}
